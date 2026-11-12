@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-label="ML &amp; Computer Vision: YOLO real-time safety gear detection">
+  <defs>
+    <linearGradient id="bgppe-detection-yolo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2b2c"/><stop offset="1" stop-color="#121213"/>
+    </linearGradient>
+    <radialGradient id="glowppe-detection-yolo" cx="0.85" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.28"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dotsppe-detection-yolo" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgppe-detection-yolo)"/>
+  <rect width="600" height="450" fill="url(#dotsppe-detection-yolo)"/>
+  <rect width="600" height="450" fill="url(#glowppe-detection-yolo)"/>
+  <g stroke="#a78bfa" stroke-opacity="0.35" stroke-width="2"><line x1="470" y1="70" x2="545" y2="150"/><line x1="470" y1="70" x2="440" y2="180"/><line x1="545" y1="150" x2="520" y2="260"/><line x1="440" y1="180" x2="520" y2="260"/><line x1="470" y1="70" x2="575" y2="60"/><line x1="470" y1="70" x2="400" y2="110"/><line x1="440" y1="180" x2="400" y2="110"/><line x1="545" y1="150" x2="575" y2="60"/></g>
+  <g fill="#a78bfa" fill-opacity="0.75"><circle cx="470" cy="70" r="6"/><circle cx="545" cy="150" r="6"/><circle cx="440" cy="180" r="6"/><circle cx="520" cy="260" r="6"/><circle cx="575" cy="60" r="6"/><circle cx="400" cy="110" r="6"/></g>
+  <rect x="44" y="44" width="92" height="92" rx="22" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.4"/>
+  <svg x="64" y="64" width="52" height="52" viewBox="0 0 512 512"><circle fill="none" stroke="#a78bfa" stroke-miterlimit="10" stroke-width="32" cx="256" cy="56" r="40"/><path fill="none" stroke="#a78bfa" stroke-miterlimit="10" stroke-width="32" d="M199.3 295.62h0l-30.4 172.2a24 24 0 0019.5 27.8 23.76 23.76 0 0027.6-19.5l21-119.9v.2s5.2-32.5 17.5-32.5h3.1c12.5 0 17.5 32.5 17.5 32.5v-.1l21 119.9a23.92 23.92 0 1047.1-8.4l-30.4-172.2-4.9-29.7c-2.9-18.1-4.2-47.6.5-59.7 4-10.4 14.13-14.2 23.2-14.2H424a24 24 0 000-48H88a24 24 0 000 48h92.5c9.23 0 19.2 3.8 23.2 14.2 4.7 12.1 3.4 41.6.5 59.7z"/></svg>
+  <text x="44" y="190" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="3" fill="#a78bfa">ML &amp; COMPUTER VISION</text>
+  <text x="40" y="318" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="112" font-weight="700" fill="#fafafa">YOLO</text>
+  <text x="44" y="372" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="400" fill="#d6d6d6">real-time safety gear detection</text>
+  <rect x="44" y="398" width="64" height="5" rx="2.5" fill="#a78bfa"/>
+</svg>

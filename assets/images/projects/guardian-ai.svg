@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-label="Agentic AI: 24/7 crisis detection and routing">
+  <defs>
+    <linearGradient id="bgguardian-ai" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2b2c"/><stop offset="1" stop-color="#121213"/>
+    </linearGradient>
+    <radialGradient id="glowguardian-ai" cx="0.85" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#ffd166" stop-opacity="0.28"/><stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dotsguardian-ai" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgguardian-ai)"/>
+  <rect width="600" height="450" fill="url(#dotsguardian-ai)"/>
+  <rect width="600" height="450" fill="url(#glowguardian-ai)"/>
+  <g stroke="#ffd166" stroke-opacity="0.35" stroke-width="2"><line x1="470" y1="70" x2="545" y2="150"/><line x1="470" y1="70" x2="440" y2="180"/><line x1="545" y1="150" x2="520" y2="260"/><line x1="440" y1="180" x2="520" y2="260"/><line x1="470" y1="70" x2="575" y2="60"/><line x1="470" y1="70" x2="400" y2="110"/><line x1="440" y1="180" x2="400" y2="110"/><line x1="545" y1="150" x2="575" y2="60"/></g>
+  <g fill="#ffd166" fill-opacity="0.75"><circle cx="470" cy="70" r="6"/><circle cx="545" cy="150" r="6"/><circle cx="440" cy="180" r="6"/><circle cx="520" cy="260" r="6"/><circle cx="575" cy="60" r="6"/><circle cx="400" cy="110" r="6"/></g>
+  <rect x="44" y="44" width="92" height="92" rx="22" fill="#ffd166" fill-opacity="0.12" stroke="#ffd166" stroke-opacity="0.4"/>
+  <svg x="64" y="64" width="52" height="52" viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="#ffd166" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+  <text x="44" y="190" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="3" fill="#ffd166">AGENTIC AI</text>
+  <text x="40" y="318" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="112" font-weight="700" fill="#fafafa">24/7</text>
+  <text x="44" y="372" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="400" fill="#d6d6d6">crisis detection and routing</text>
+  <rect x="44" y="398" width="64" height="5" rx="2.5" fill="#ffd166"/>
+</svg>
