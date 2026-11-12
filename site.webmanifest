@@ -1,0 +1,13 @@
+{
+  "name": "Ibtasam Ahmad – AI/ML Engineer",
+  "short_name": "Ibtasam Ahmad",
+  "description": "AI/ML Engineer building production Generative AI: RAG pipelines, AI agents, LLM fine-tuning and AI SaaS.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121213",
+  "theme_color": "#121213",
+  "icons": [
+    { "src": "/assets/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/images/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

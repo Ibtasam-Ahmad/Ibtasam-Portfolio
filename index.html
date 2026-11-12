@@ -1,372 +1,1817 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ibtasam Ahmad's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <!-- Primary SEO -->
+  <title>Ibtasam Ahmad – AI/ML Engineer | Generative AI, RAG &amp; Agentic AI Developer</title>
+  <meta name="description" content="Ibtasam Ahmad, AI/ML Engineer in Lahore, Pakistan. 4+ years building production Generative AI: RAG pipelines, AI agents, LLM fine-tuning, chatbots and AI SaaS.">
+  <meta name="keywords" content="Ibtasam Ahmad, AI Engineer, ML Engineer, AI Engineer Pakistan, AI Engineer Lahore, Machine Learning Engineer, Generative AI Developer, LLM Engineer, RAG Developer, Agentic AI, Multi-Agent Systems, LangChain Developer, LangGraph, LLM Fine-tuning, Chatbot Developer, Voicebot Developer, FastAPI, Django, Python AI Developer, Computational Physics, Freelance AI Developer">
+  <meta name="author" content="Ibtasam Ahmad">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://ibtasam-ahmad.netlify.app/">
+  <meta name="theme-color" content="#121213">
+  <meta name="color-scheme" content="dark">
 
-    <link rel="icon" type="image/x-icon" href="./img/IA.png">  
-      <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Ibtasam Ahmad">
+  <meta property="og:url" content="https://ibtasam-ahmad.netlify.app/">
+  <meta property="og:title" content="Ibtasam Ahmad – AI/ML Engineer | Generative AI, RAG &amp; Agentic AI">
+  <meta property="og:description" content="AI/ML Engineer building production RAG pipelines, multi-agent systems, fine-tuned LLMs, chatbots and AI SaaS. 25+ AI systems shipped for 100+ clients.">
+  <meta property="og:image" content="https://ibtasam-ahmad.netlify.app/assets/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Ibtasam Ahmad, AI/ML Engineer – Generative AI, RAG and Agentic AI">
+  <meta property="og:locale" content="en_US">
+  <meta property="profile:first_name" content="Ibtasam">
+  <meta property="profile:last_name" content="Ahmad">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ibtasam Ahmad – AI/ML Engineer | Generative AI, RAG &amp; Agentic AI">
+  <meta name="twitter:description" content="AI/ML Engineer building production RAG pipelines, multi-agent systems, fine-tuned LLMs, chatbots and AI SaaS.">
+  <meta name="twitter:image" content="https://ibtasam-ahmad.netlify.app/assets/images/og-image.png">
+
+  <!-- Icons & manifest -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Fonts & styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="/assets/images/ibtasam-ahmad-240.webp" type="image/webp">
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <noscript>
+    <style>
+      article, .project-item { display: block !important; }
+      .navbar { display: none; }
+    </style>
+  </noscript>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://ibtasam-ahmad.netlify.app/#person",
+        "name": "Ibtasam Ahmad",
+        "givenName": "Ibtasam",
+        "familyName": "Ahmad",
+        "url": "https://ibtasam-ahmad.netlify.app/",
+        "image": "https://ibtasam-ahmad.netlify.app/assets/images/ibtasam-ahmad.jpg",
+        "jobTitle": "AI/ML Engineer",
+        "description": "AI/ML Engineer with 4+ years of experience building production Generative AI systems: RAG pipelines, multi-agent AI, LLM fine-tuning, chatbots, voicebots and AI SaaS products.",
+        "email": "mailto:shibtasam@gmail.com",
+        "telephone": "+92-315-0180953",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lahore",
+          "addressRegion": "Punjab",
+          "addressCountry": "PK"
+        },
+        "worksFor": { "@type": "Organization", "name": "Visnext Software Solutions" },
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "University of the Punjab", "url": "https://pu.edu.pk" }
+        ],
+        "knowsLanguage": ["en", "ur"],
+        "knowsAbout": [
+          "Artificial Intelligence", "Machine Learning", "Deep Learning", "Generative AI",
+          "Large Language Models", "Retrieval-Augmented Generation", "Agentic AI", "Multi-Agent Systems",
+          "LLM Fine-tuning", "Natural Language Processing", "Computer Vision", "Time Series Forecasting",
+          "Quantum Machine Learning", "LangChain", "LangGraph", "LlamaIndex", "AutoGen", "CrewAI",
+          "Model Context Protocol", "OpenAI", "Claude", "Gemini", "LLaMA", "Hugging Face", "PyTorch",
+          "TensorFlow", "FAISS", "Pinecone", "Weaviate", "Chroma", "pgvector", "FastAPI", "Django", "Flask",
+          "Python", "Docker", "AWS", "Google Cloud", "Computational Physics"
+        ],
+        "hasCredential": [
+          { "@type": "EducationalOccupationalCredential", "name": "BS (Hons) Computational Physics", "credentialCategory": "degree", "recognizedBy": { "@type": "CollegeOrUniversity", "name": "University of the Punjab" } },
+          { "@type": "EducationalOccupationalCredential", "name": "Diploma in Artificial Intelligence", "credentialCategory": "diploma", "recognizedBy": { "@type": "Organization", "name": "NAVTTC – University of the Punjab" } },
+          { "@type": "EducationalOccupationalCredential", "name": "IBM AI Engineering Professional Certificate", "credentialCategory": "certificate", "recognizedBy": { "@type": "Organization", "name": "IBM" } },
+          { "@type": "EducationalOccupationalCredential", "name": "IBM Data Science Professional Certificate", "credentialCategory": "certificate", "recognizedBy": { "@type": "Organization", "name": "IBM" } },
+          { "@type": "EducationalOccupationalCredential", "name": "Meta Full-Stack Engineer Certificate", "credentialCategory": "certificate", "recognizedBy": { "@type": "Organization", "name": "Meta" } },
+          { "@type": "EducationalOccupationalCredential", "name": "Machine Learning Specialization", "credentialCategory": "certificate", "recognizedBy": { "@type": "Organization", "name": "DeepLearning.AI · Stanford University" } },
+          { "@type": "EducationalOccupationalCredential", "name": "Microsoft Certified: Azure AI Fundamentals", "credentialCategory": "certificate", "recognizedBy": { "@type": "Organization", "name": "Microsoft" } }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/ibtasam-ahmad",
+          "https://github.com/Ibtasam-Ahmad",
+          "https://medium.com/@shibtasam",
+          "https://portfolio-ibtasam-ahmad.vercel.app/",
+          "https://doi.org/10.48550/arXiv.2409.08297"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://ibtasam-ahmad.netlify.app/#website",
+        "url": "https://ibtasam-ahmad.netlify.app/",
+        "name": "Ibtasam Ahmad – AI/ML Engineer",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://ibtasam-ahmad.netlify.app/#person" }
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://ibtasam-ahmad.netlify.app/#webpage",
+        "url": "https://ibtasam-ahmad.netlify.app/",
+        "name": "Ibtasam Ahmad – AI/ML Engineer | Generative AI, RAG & Agentic AI Developer",
+        "inLanguage": "en",
+        "dateModified": "2026-11-12",
+        "isPartOf": { "@id": "https://ibtasam-ahmad.netlify.app/#website" },
+        "about": { "@id": "https://ibtasam-ahmad.netlify.app/#person" },
+        "mainEntity": { "@id": "https://ibtasam-ahmad.netlify.app/#person" },
+        "primaryImageOfPage": "https://ibtasam-ahmad.netlify.app/assets/images/og-image.png"
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "@id": "https://doi.org/10.48550/arXiv.2409.08297",
+        "headline": "Comparative Study of Long Short-Term Memory (LSTM) and Quantum Long Short-Term Memory (QLSTM): Prediction of Stock Market Movement",
+        "author": [
+          { "@type": "Person", "name": "Tariq Mahmood" },
+          { "@id": "https://ibtasam-ahmad.netlify.app/#person" },
+          { "@type": "Person", "name": "M. M. Z. Ansar" },
+          { "@type": "Person", "name": "J. A. Darwish" },
+          { "@type": "Person", "name": "R. A. K. Sherwani" }
+        ],
+        "datePublished": "2024-09-12",
+        "url": "https://doi.org/10.48550/arXiv.2409.08297",
+        "publisher": { "@type": "Organization", "name": "arXiv" },
+        "keywords": "Deep Learning, LSTM, QLSTM, Stock Market Prediction, Quantum Machine Learning"
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>
 
+  <main>
 
-    <!-- header section starts  -->
+    <!--
+      - #SIDEBAR
+    -->
 
-    <header>
+    <aside class="sidebar" data-sidebar>
 
-        <div class="user">
-            <br><br><br><br><br>
-            <br><br><br><br><br>
-            <br><br><br><br><br>
-            <br><br><br><br><br>
-            <img src="./img/profile.png" alt="Ibtasam Ahmad">
-            <br />
-            <h3 class="name">Ibtasam Ahmad</h3>
-            <br />
-            <p class="post">Computational Physicist <br /> Artificial Intelligence <br />
-                 Data Science & Analysis <br /> Machine & Deep Learning <br /> 
-                 Computer Simulations & Vision <br /> Scientific Computation  
-                  <br /> Front-End Developer <br /> Time Series Analyst
-                 <br /> Graphic Designer
-            <br />
-            <br />
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="/assets/images/ibtasam-ahmad-240.webp" alt="Ibtasam Ahmad – AI/ML Engineer" width="80" height="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ibtasam Ahmad">Ibtasam Ahmad</h1>
+
+          <p class="title">AI/ML Engineer</p>
         </div>
 
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#education">education</a></li>
-                <li><a href="#experience">experience</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#contact">contact</a></li>
+        <button class="info_more-btn" data-sidebar-btn aria-label="Show contacts" aria-expanded="false">
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:shibtasam@gmail.com" class="contact-link">shibtasam@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+923150180953" class="contact-link">+92 315 0180953</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Availability</p>
+              <p class="contact-link">Remote · Relocation</p>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Lahore, Punjab, Pakistan</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ibtasam-ahmad" class="social-link" target="_blank" rel="noopener me" aria-label="Ibtasam Ahmad on LinkedIn">
+              <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Ibtasam-Ahmad" class="social-link" target="_blank" rel="noopener me" aria-label="Ibtasam Ahmad on GitHub">
+              <ion-icon name="logo-github" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://medium.com/@shibtasam" class="social-link" target="_blank" rel="noopener me" aria-label="Ibtasam Ahmad on Medium">
+              <ion-icon name="logo-medium" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://wa.me/message/NNXCQB4E5X7HF1" class="social-link" target="_blank" rel="noopener" aria-label="Message Ibtasam Ahmad on WhatsApp">
+              <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar" aria-label="Primary">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link active" data-nav-link="about">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#resume" class="navbar-link" data-nav-link="resume">Resume</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#portfolio" class="navbar-link" data-nav-link="portfolio">Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link="blog">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link="contact">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" id="about" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm <strong>Ibtasam Ahmad</strong>, an <strong>AI/ML Engineer</strong> based in <strong>Lahore, Pakistan</strong>
+            with 4+ years of experience designing and shipping production-grade <strong>Generative AI</strong> systems:
+            <strong>RAG pipelines</strong>, <strong>multi-agent AI</strong> architectures, <strong>LLM fine-tuning</strong>,
+            chatbots, voicebots and full-stack AI SaaS products.
+          </p>
+
+          <p>
+            My background is in <strong>Computational Physics</strong>, so linear algebra, probability and optimisation are
+            everyday tools rather than something I outsource to a framework. I fine-tune open-source models such as LLaMA
+            with Unsloth, build hybrid SQL and vector retrieval with FAISS, Pinecone and Weaviate, and orchestrate AI agents
+            with LangGraph, LangChain, AutoGen, CrewAI and the Model Context Protocol (MCP).
+          </p>
+
+          <p>
+            I've delivered 25+ AI systems in production for 100+ clients across healthcare, insurance, real estate,
+            fintech, education and security. These systems typically cut manual effort by 60–70%. I'm also a published researcher
+            (LSTM vs. Quantum LSTM on arXiv), an AI writer on Medium, and I share AI insights with 22K+ followers on LinkedIn.
+            I'm open to <strong>remote AI engineering roles</strong>, freelance projects, relocation, and funded
+            Master's research positions in Generative AI.
+          </p>
+        </section>
+
+
+        <!--
+          - stats
+        -->
+
+        <section class="stats" aria-label="Highlights">
+          <ul class="stats-list">
+            <li class="stats-item">
+              <p class="stats-value">4+</p>
+              <p class="stats-label">Years of AI experience</p>
+            </li>
+            <li class="stats-item">
+              <p class="stats-value">25+</p>
+              <p class="stats-label">AI systems in production</p>
+            </li>
+            <li class="stats-item">
+              <p class="stats-value">100+</p>
+              <p class="stats-label">Clients served</p>
+            </li>
+            <li class="stats-item">
+              <p class="stats-value">22K+</p>
+              <p class="stats-label">LinkedIn followers</p>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I Build</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="sparkles-outline" aria-hidden="true"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Generative AI &amp; LLM Apps</h4>
+                <p class="service-item-text">
+                  Production LLM applications on OpenAI, Claude, Gemini and LLaMA, with evaluation, guardrails and
+                  cost control built in.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">RAG Pipelines</h4>
+                <p class="service-item-text">
+                  Retrieval-augmented generation over your documents: hybrid search, re-ranking, multimodal RAG and
+                  vector databases.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="git-network-outline" aria-hidden="true"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Agentic AI &amp; Multi-Agent Systems</h4>
+                <p class="service-item-text">
+                  Autonomous AI agents with LangGraph, AutoGen, CrewAI and MCP that reason, call tools and automate
+                  multi-step workflows.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Chatbots &amp; Voicebots</h4>
+                <p class="service-item-text">
+                  24/7 AI assistants and phone agents with Twilio, Vapi, ElevenLabs and Whisper, deployed in live
+                  business environments.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="options-outline" aria-hidden="true"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">LLM Fine-tuning &amp; ML Models</h4>
+                <p class="service-item-text">
+                  Fine-tuned LLaMA and open-weight models with Unsloth and Hugging Face, plus custom ML for NLP,
+                  computer vision and time series.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="layers-outline" aria-hidden="true"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-Stack AI SaaS &amp; APIs</h4>
+                <p class="service-item-text">
+                  End-to-end AI products with FastAPI, Django and React, including auth, payments, Docker, CI/CD and
+                  AWS/GCP deployment.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">What Clients Say</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item tabindex="0" role="button" aria-label="Read testimonial from Sarah Chen">
+                <figure class="testimonials-avatar-box">
+                  <span class="avatar-initials" data-testimonials-avatar>SC</span>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sarah Chen</h4>
+                <p class="testimonials-meta" data-testimonials-meta>CTO · TechForward Inc., USA</p>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Ibtasam built a full RAG pipeline that cut our document processing time by 65%. He handled the entire
+                    stack himself, from the React frontend to the FastAPI backend and vector database. Delivered ahead of
+                    schedule with clean, well-documented code.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item tabindex="0" role="button" aria-label="Read testimonial from Emma Thompson">
+                <figure class="testimonials-avatar-box">
+                  <span class="avatar-initials" data-testimonials-avatar>ET</span>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emma Thompson</h4>
+                <p class="testimonials-meta" data-testimonials-meta>Head of Operations · LogiFlow Ltd., UK</p>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Our team was drowning in manual reporting every week. Ibtasam built multi-agent automation that now
+                    handles everything in minutes. We save over 20 hours every week and the ROI was clear within the first
+                    month.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item tabindex="0" role="button" aria-label="Read testimonial from Louis Dubois">
+                <figure class="testimonials-avatar-box">
+                  <span class="avatar-initials" data-testimonials-avatar>LD</span>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Louis Dubois</h4>
+                <p class="testimonials-meta" data-testimonials-meta>Client · Healthcare AI Project, France</p>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    We collaborated with Ibtasam in March 2024 for a French healthcare AI assistant. His work on NLP and
+                    document understanding using LLMs was remarkable. He was professional, responsive, and always ahead of
+                    schedule.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item tabindex="0" role="button" aria-label="Read testimonial from David Park">
+                <figure class="testimonials-avatar-box">
+                  <span class="avatar-initials" data-testimonials-avatar>DP</span>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>David Park</h4>
+                <p class="testimonials-meta" data-testimonials-meta>Product Manager · B2B SaaS Startup, Singapore</p>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Ibtasam built our customer-facing AI chatbot end to end. It now handles 80% of support queries
+                    automatically and our team only steps in for complex edge cases. Professional, communicative, and the
+                    code quality is genuinely excellent.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item tabindex="0" role="button" aria-label="Read testimonial from Fatima Al Nahyan">
+                <figure class="testimonials-avatar-box">
+                  <span class="avatar-initials" data-testimonials-avatar>FA</span>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Fatima Al Nahyan</h4>
+                <p class="testimonials-meta" data-testimonials-meta>Director · Dubai-based Firm, UAE</p>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    In August 2024, Ibtasam built a voice-enabled custom callbot for our firm. His implementation of Twilio
+                    and OpenAI made the solution highly interactive. Clients love it. Highly recommended!
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item tabindex="0" role="button" aria-label="Read testimonial from Chloe Smith">
+                <figure class="testimonials-avatar-box">
+                  <span class="avatar-initials" data-testimonials-avatar>CS</span>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Chloe Smith</h4>
+                <p class="testimonials-meta" data-testimonials-meta>Co-Founder · AI Startup, Australia</p>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    In January 2025, Ibtasam helped us launch an AI-powered product recommendation engine. His creativity
+                    and command over data pipelines and vector databases really set him apart from other developers we have
+                    worked with.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item tabindex="0" role="button" aria-label="Read testimonial from Ahmad Zulkifli">
+                <figure class="testimonials-avatar-box">
+                  <span class="avatar-initials" data-testimonials-avatar>AZ</span>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ahmad Zulkifli</h4>
+                <p class="testimonials-meta" data-testimonials-meta>Head of IT · University, Malaysia</p>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    We hired Ibtasam in April 2025 to build a chatbot that answers academic queries from PDFs for our
+                    university. The final product was precise, fast, and extremely user-friendly. Excellent work all
+                    around!
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item tabindex="0" role="button" aria-label="Read testimonial from James Wilson">
+                <figure class="testimonials-avatar-box">
+                  <span class="avatar-initials" data-testimonials-avatar>JW</span>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>James Wilson</h4>
+                <p class="testimonials-meta" data-testimonials-meta>Engineering Lead · Automation Agency, Australia</p>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    We brought Ibtasam in for a complex multi-agent AI project. He structured the entire architecture,
+                    built it cleanly, and the system has been running in production for over 4 months without a single
+                    issue. Will absolutely work together again.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal" role="dialog" aria-modal="true" aria-labelledby="testimonial-modal-title">
+
+            <button class="modal-close-btn" data-modal-close-btn aria-label="Close testimonial">
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <span class="avatar-initials avatar-initials--lg" data-modal-img>SC</span>
+              </figure>
+
+              <img src="/assets/images/icon-quote.svg" alt="" aria-hidden="true">
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" id="testimonial-modal-title" data-modal-title>Sarah Chen</h4>
+              <p class="modal-meta" data-modal-meta>CTO · TechForward Inc., USA</p>
+              <div data-modal-text></div>
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - industries
+        -->
+
+        <section class="industries">
+
+          <h3 class="h3 industries-title">Industries I've Shipped AI Into</h3>
+
+          <ul class="chip-list">
+            <li class="chip">Healthcare</li>
+            <li class="chip">Insurance</li>
+            <li class="chip">Real Estate</li>
+            <li class="chip">Finance &amp; FinTech</li>
+            <li class="chip">E-commerce</li>
+            <li class="chip">Education &amp; EdTech</li>
+            <li class="chip">Cybersecurity</li>
+            <li class="chip">Construction</li>
+            <li class="chip">HR &amp; Recruitment</li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" id="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="cv-card content-card">
+          <div>
+            <h3 class="h4 cv-card-title">AI/ML Engineer CV: Production RAG &amp; Multi-Agent Systems</h3>
+            <p class="cv-card-text">Every role, project, publication and skill in a single PDF.</p>
+          </div>
+          <a class="btn-primary" href="https://drive.google.com/file/d/18oKWxH1YQzTl3OHRV5iDJod-_atCo3wd/view" target="_blank" rel="noopener">
+            <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            <span>Download CV</span>
+          </a>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Senior AI/ML Engineer</h4>
+              <p class="timeline-org">Visnext Software Solutions · Lahore</p>
+              <span>Nov 2025 — Present</span>
+              <ul class="timeline-points">
+                <li>Architected enterprise RAG pipelines with Gemma fine-tuning (Unsloth) and FAISS/Chroma vector indexing, reducing manual reporting by 60% for 5+ enterprise clients.</li>
+                <li>Built multi-agent AI architectures with LangChain and AutoGen for autonomous reasoning and task execution.</li>
+                <li>Implemented Model Context Protocol (MCP), function calling and agentic tool orchestration connecting LLMs to external APIs, data and tools.</li>
+                <li>Independently delivered SaaS products PixadentAI, AI HR Flow Automation and CrossGroveAI, cutting clinical documentation by 75% and recruitment cycle time by 50%.</li>
+              </ul>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python / AI Developer</h4>
+              <p class="timeline-org">Infolyze Solutions · Lahore</p>
+              <span>May 2025 — Nov 2025</span>
+              <ul class="timeline-points">
+                <li>Built multimodal RAG report generation and contextual chatbots for enterprise document Q&amp;A and summarisation.</li>
+                <li>Shipped production chatbots and voicebots handling 5,000+ monthly conversations (Twilio, Vapi, ElevenLabs).</li>
+                <li>Automated property insights with BigQuery + Gemini, cutting analysis turnaround by 40%.</li>
+                <li>Implemented agentic workflows with CrewAI and LangGraph for multi-step task automation.</li>
+              </ul>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI Developer</h4>
+              <p class="timeline-org">DigiMark Developers · Lahore</p>
+              <span>Mar 2024 — May 2025</span>
+              <ul class="timeline-points">
+                <li>Delivered RAG-driven chatbots and voicebots using OpenAI, Claude and Hugging Face models in live production.</li>
+                <li>Designed scalable APIs with Django REST, Flask and FastAPI; built hybrid SQL + vector search (Pinecone, FAISS, Chroma) for higher retrieval precision.</li>
+                <li>Built the "Laila" multilingual khutba translation API with real-time Quranic verse search.</li>
+                <li>Developed small language models (SLMs) for resource-constrained environments.</li>
+              </ul>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Junior Python / AI Developer</h4>
+              <p class="timeline-org">Expert System Solution · Lahore</p>
+              <span>Aug 2023 — Mar 2024</span>
+              <ul class="timeline-points">
+                <li>Built NLP, OCR and computer vision solutions with PyTorch, Keras and scikit-learn.</li>
+                <li>Delivered LSTM prediction tools and OCR systems automating manual data processing for SMEs.</li>
+                <li>Developed YOLO-based PPE detection, parking violation monitoring and railway obstacle detection.</li>
+                <li>Shipped a GPT-3.5 Turbo call bot right after the model's release.</li>
+              </ul>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI Intern</h4>
+              <p class="timeline-org">ZS Study Advisors · Lahore</p>
+              <span>Jul 2023 — Aug 2023</span>
+              <p class="timeline-text">Implemented prototype AI solutions for NLP and computer vision tasks.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Demonstrator</h4>
+              <p class="timeline-org">CHEP, University of the Punjab · Lahore</p>
+              <span>Sep 2022 — Jul 2023</span>
+              <p class="timeline-text">Guided 50+ students through final-year projects and AI/physics coursework.</p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BS (Hons) Computational Physics</h4>
+              <p class="timeline-org">University of the Punjab (CHEP) · Lahore</p>
+              <span>2019 — 2023</span>
+              <p class="timeline-text">Thesis: Prediction of Stock Exchange Data Using LSTM &amp; QLSTM (published on arXiv).</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Diploma in Artificial Intelligence</h4>
+              <p class="timeline-org">University of the Punjab (NAVTTC) · Lahore</p>
+              <span>2022</span>
+              <p class="timeline-text">Final-year project: Personal Protective Equipment (PPE) detection with YOLO.</p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="flask-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <h3 class="h3">Research &amp; Publications</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                <a class="text-link" href="https://doi.org/10.48550/arXiv.2409.08297" target="_blank" rel="noopener">
+                  Comparative Study of LSTM and Quantum LSTM (QLSTM): Prediction of Stock Market Movement
+                </a>
+              </h4>
+              <p class="timeline-org">arXiv:2409.08297 · Mahmood, T., Ahmad, I., Ansar, M. M. Z., Darwish, J. A. &amp; Sherwani, R. A. K.</p>
+              <span>Sep 2024</span>
+              <p class="timeline-text">
+                Benchmarks classical deep learning against quantum machine learning for financial time series forecasting.
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Technical Skills</h3>
+
+          <div class="skills-list content-card">
+
+            <div class="skills-group">
+              <h4 class="h5">LLMs &amp; Models</h4>
+              <ul class="chip-list">
+                <li class="chip">OpenAI GPT-4</li><li class="chip">Claude</li><li class="chip">Gemini</li>
+                <li class="chip">LLaMA 3.2</li><li class="chip">Hugging Face</li><li class="chip">Groq</li>
+                <li class="chip">DeepSeek</li><li class="chip">Whisper</li>
+              </ul>
+            </div>
+
+            <div class="skills-group">
+              <h4 class="h5">Agents &amp; Frameworks</h4>
+              <ul class="chip-list">
+                <li class="chip">LangChain</li><li class="chip">LangGraph</li><li class="chip">LangSmith</li>
+                <li class="chip">LlamaIndex</li><li class="chip">AutoGen</li><li class="chip">CrewAI</li>
+                <li class="chip">MCP</li><li class="chip">AbacusAI</li><li class="chip">Unsloth</li>
+              </ul>
+            </div>
+
+            <div class="skills-group">
+              <h4 class="h5">Vector Search &amp; Databases</h4>
+              <ul class="chip-list">
+                <li class="chip">FAISS</li><li class="chip">Pinecone</li><li class="chip">Weaviate</li>
+                <li class="chip">Chroma</li><li class="chip">pgvector</li><li class="chip">PostgreSQL</li>
+                <li class="chip">MongoDB</li><li class="chip">BigQuery</li><li class="chip">Redis</li>
+              </ul>
+            </div>
+
+            <div class="skills-group">
+              <h4 class="h5">ML, Deep Learning &amp; Vision</h4>
+              <ul class="chip-list">
+                <li class="chip">PyTorch</li><li class="chip">TensorFlow</li><li class="chip">Keras</li>
+                <li class="chip">scikit-learn</li><li class="chip">YOLO</li><li class="chip">OCR / Tesseract</li>
+                <li class="chip">LSTM</li><li class="chip">Prophet / ARIMA</li><li class="chip">Qiskit / PennyLane</li>
+              </ul>
+            </div>
+
+            <div class="skills-group">
+              <h4 class="h5">Backend, APIs &amp; Frontend</h4>
+              <ul class="chip-list">
+                <li class="chip">Python</li><li class="chip">FastAPI</li><li class="chip">Django REST</li>
+                <li class="chip">Flask</li><li class="chip">Celery</li><li class="chip">WebSockets</li>
+                <li class="chip">React</li><li class="chip">Next.js</li><li class="chip">Streamlit</li>
+              </ul>
+            </div>
+
+            <div class="skills-group">
+              <h4 class="h5">Cloud, DevOps &amp; Integrations</h4>
+              <ul class="chip-list">
+                <li class="chip">AWS (EC2, S3, Lambda)</li><li class="chip">GCP (Vertex AI, Cloud Run)</li>
+                <li class="chip">Azure</li><li class="chip">Docker</li><li class="chip">GitHub Actions</li>
+                <li class="chip">Twilio</li><li class="chip">Vapi</li><li class="chip">ElevenLabs</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <h3 class="h3">Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">IBM AI Engineering Professional Certificate (V2)</h4>
+              <span>IBM · 2024</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">IBM Data Science Professional Certificate</h4>
+              <span>IBM · 2024</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Meta Full-Stack Engineer Certificate</h4>
+              <span>Meta · 2024</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Machine Learning Specialization</h4>
+              <span>Stanford University · DeepLearning.AI · 2023</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Microsoft Certified: Azure AI Fundamentals</h4>
+              <span>Microsoft · 2022</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Artificial Intelligence</h4>
+              <span>National Vocational &amp; Technical Training Commission (NAVTTC) · 2022</span>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <h3 class="h3">Leadership &amp; Community</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Community &amp; Writing</h4>
+              <p class="timeline-text">
+                LinkedIn creator (22K+ followers) sharing AI insights · AI writer on Medium · President, CHEP Literary &amp;
+                Event Societies · IT Lead, CHEP Scientific Society · Associate Member, Pakistan Nuclear Society ·
+                In-charge, PU Photography Club.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Conferences &amp; Competitions</h4>
+              <p class="timeline-text">
+                Startup Grind Lahore 2025 · Future Fest Pakistan 2023–2025 · PITB Tech Conference 2022–2024 ·
+                NASA Space Apps Challenge Pakistan 2022 · Connected Pakistan Conference 2022.
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" id="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <p class="page-intro">
+          AI projects and case studies covering <strong>agentic AI platforms</strong>, <strong>RAG pipelines</strong>,
+          voice AI, fine-tuned LLMs and computer vision, built for clients in healthcare, insurance, real estate,
+          finance, education and security. Select a project to see the problem, solution, impact and tech stack.
+        </p>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn="all">All</button></li>
+            <li class="filter-item"><button data-filter-btn="agentic">Agentic AI</button></li>
+            <li class="filter-item"><button data-filter-btn="rag">RAG &amp; LLM</button></li>
+            <li class="filter-item"><button data-filter-btn="voice">Voice &amp; Chatbots</button></li>
+            <li class="filter-item"><button data-filter-btn="ml">ML &amp; Vision</button></li>
+            <li class="filter-item"><button data-filter-btn="design">Graphic Design</button></li>
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select aria-haspopup="listbox">
+              <div class="select-value" data-select-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item="all">All</button></li>
+              <li class="select-item"><button data-select-item="agentic">Agentic AI</button></li>
+              <li class="select-item"><button data-select-item="rag">RAG &amp; LLM</button></li>
+              <li class="select-item"><button data-select-item="voice">Voice &amp; Chatbots</button></li>
+              <li class="select-item"><button data-select-item="ml">ML &amp; Vision</button></li>
+              <li class="select-item"><button data-select-item="design">Graphic Design</button></li>
             </ul>
-        </nav>
 
-    </header>
+          </div>
 
-    <!-- header section ends -->
+          <ul class="project-list">
 
-    <div id="menu" class="fas fa-bars"></div>
+            <!-- ===== Agentic AI ===== -->
 
-    <!-- home section starts  -->
+            <li class="project-item active" data-filter-item data-category="agentic">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/crossgrove-ai.svg" alt="CrossGroveAI insurance AI orchestrator" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">CrossGroveAI</h3>
+                <p class="project-category">Agentic AI · Insurance</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Brokers re-keying policy data by hand to compare renewal quotes across insurers.</p>
+                <p><strong>Solution:</strong> Multi-tenant AI orchestrator automating insurance renewal, negotiation and quotation workflows with hybrid LLM + OCR extraction and state-machine tracking.</p>
+                <p><strong>Impact:</strong> Eliminated manual data entry for multi-insurer rate comparisons and enabled rapid tender generation.</p>
+                <p class="project-stack">FastAPI · MongoDB · Gemini · Groq · AWS S3 · Docker</p>
+              </div>
+            </li>
 
-    <section class="home" id="home">
+            <li class="project-item active" data-filter-item data-category="agentic">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/agent-analysis-system.svg" alt="Agent Analysis System multi-agent reporting platform" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Agent Analysis System</h3>
+                <p class="project-category">Agentic AI · Enterprise</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> An enterprise team losing hours every week to manual data analysis reports.</p>
+                <p><strong>Solution:</strong> Multi-agent AI platform where autonomous agents handle ingestion, reasoning, planning and report generation end to end.</p>
+                <p><strong>Impact:</strong> Reduced manual analysis time by 70%.</p>
+                <p class="project-stack">AbacusAI · LangGraph · Python · Multi-Agent · LLMs</p>
+              </div>
+            </li>
 
-        <h3>Hi !</h3>
-        <h1>I'm <span>Ibtasam Ahmad</span></h1>
-        <br /><br /><br />
-        <p>Welcome to my website! <br /><br />
-            A Highly Skilled Professional With A Bachelor's Degree In Computational Physics, 
-            A Diploma In Artificial Intelligence, And Expertise In Computer Simulations, 
-            Scientific Computation, Data Science, Data Analysis, Front End Development, 
-            Website Design and Development, Machine Learning, Deep Learning, Artificial Intelligence,
-             Image Processing, Computer Vision, Natural Language Processing, Time Series Analysis,
-              Artificial Neural Network, Quantum Neural Network, and Graphic Designing.
-            <br/><br />
-            With Over Two Years Of Experience In The Industry, 
-            I Have A Proven Track Record Of Delivering High-Quality Services And 
-            Solutions To My Clients. Whether You Need A Stunning Design, An Overview, 
-            and Analysis of Data, A Responsive Website, Or A Cutting-Edge AI Solution, 
-            I Have The Knowledge And Expertise To Help You Achieve Your Goals. 
-            <br/><br />
-            On this website, you can learn more
-            about my background, experience, and the services that I offer.
+            <li class="project-item active" data-filter-item data-category="agentic">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/pen-testing-agent.svg" alt="AI penetration testing agent platform" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Pen Testing Agent Platform</h3>
+                <p class="project-category">Agentic AI · Cybersecurity</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> A security team running manual vulnerability assessments that took days per client.</p>
+                <p><strong>Solution:</strong> AI agents that autonomously run penetration testing workflows and generate structured security reports.</p>
+                <p><strong>Impact:</strong> Cut manual analysis cycles by 50%.</p>
+                <p class="project-stack">FastAPI · LangChain · OpenAI · PostgreSQL · Agentic AI</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="agentic">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/guardian-ai.svg" alt="GuardianAI crisis prevention multi-agent platform" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">GuardianAI</h3>
+                <p class="project-category">Agentic AI · Crisis Prevention</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Detecting suicide and abuse risk in conversations quickly enough to get people to help.</p>
+                <p><strong>Solution:</strong> Prevention platform with trigger detection, intent classification and crisis routing using multi-agent orchestration.</p>
+                <p><strong>Impact:</strong> Round-the-clock risk detection with automatic routing to the right responders.</p>
+                <p class="project-stack">FastAPI · LangGraph · Weaviate · GPT-4 · Claude</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="agentic">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/ai-hr-flow.svg" alt="AI HR Flow recruitment automation" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">AI HR Flow Automation</h3>
+                <p class="project-category">Agentic AI · HR Tech</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Recruiters spending weeks screening resumes, phoning candidates and scheduling interviews.</p>
+                <p><strong>Solution:</strong> End-to-end recruitment automation: job import, multi-LLM resume parsing and scoring, AI voice interviews via ElevenLabs, calling via Twilio and automatic scheduling with Google Calendar.</p>
+                <p><strong>Impact:</strong> Reduced recruitment cycle time by 50%.</p>
+                <p class="project-stack">FastAPI · PostgreSQL · ElevenLabs · Twilio · Google Calendar API · GPT-4 · Claude</p>
+              </div>
+            </li>
+
+            <!-- ===== RAG & LLM ===== -->
+
+            <li class="project-item active" data-filter-item data-category="rag">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/pixadent-ai.svg" alt="PixadentAI clinical audio to notes AI" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">PixadentAI</h3>
+                <p class="project-category">Generative AI · Healthcare</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Dentists spending hours after appointments writing up clinical notes.</p>
+                <p><strong>Solution:</strong> Clinical audio AI that converts dental recordings into structured clinical notes, with real-time cost analytics per tenant.</p>
+                <p><strong>Impact:</strong> Reduced manual clinical documentation time by 75% for dental practices.</p>
+                <p class="project-stack">FastAPI · PostgreSQL · AWS Transcribe Medical · Whisper · Claude API · Docker</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="rag">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/permit-signal-insights.svg" alt="Permit Signal Insights property data AI" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Permit Signal Insights</h3>
+                <p class="project-category">RAG &amp; LLM · Real Estate</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Real estate analysts spending days researching property permit data.</p>
+                <p><strong>Solution:</strong> AI intelligence platform with BigQuery pipelines and LLM summarisation agents that generate property insights automatically.</p>
+                <p><strong>Impact:</strong> Reduced research time by 50%.</p>
+                <p class="project-stack">BigQuery · Gemini · Python · Data Pipelines · RAG</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="rag">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/multimodal-rag-chatbot.svg" alt="Multimodal RAG chatbot" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Multimodal RAG Chatbot</h3>
+                <p class="project-category">RAG &amp; LLM · Multimodal</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Users needing answers from mixed sources (PDFs, images, web pages and sketches) in one interface.</p>
+                <p><strong>Solution:</strong> RAG chatbot that handles images, documents, drawings and real-time web search for grounded, contextual answers.</p>
+                <p><strong>Impact:</strong> One assistant that fuses four kinds of source into each answer.</p>
+                <p class="project-stack">RAG · GPT-4o · LLaMA 3 · Computer Vision · Web Search</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="rag">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/medical-document-intelligence.svg" alt="Medical document intelligence AI" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Medical Document Intelligence</h3>
+                <p class="project-category">RAG &amp; LLM · Healthcare</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Hospital staff spending hours extracting and categorising data from patient records and clinical reports.</p>
+                <p><strong>Solution:</strong> LLM and vector-search system that extracts, classifies and summarises clinical documents with field-level accuracy.</p>
+                <p><strong>Impact:</strong> Reduced document processing time by 80%.</p>
+                <p class="project-stack">GPT-4o · LangChain · FastAPI · PostgreSQL · Healthcare AI</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="rag">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/financial-intelligence.svg" alt="Financial intelligence RAG platform" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Financial Intelligence Platform</h3>
+                <p class="project-category">RAG &amp; LLM · FinTech</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> A fintech firm needing real-time insight from earnings reports, SEC filings and market news across hundreds of assets.</p>
+                <p><strong>Solution:</strong> AI analytics platform combining RAG over financial documents with live market data feeds for automated reporting and smart alerts.</p>
+                <p><strong>Impact:</strong> Real-time insights across 500+ assets.</p>
+                <p class="project-stack">RAG · GPT-4o · BigQuery · React · Next.js</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="rag">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/construction-plan-analysis.svg" alt="Construction plan analysis RAG tool" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Construction Plan Analysis</h3>
+                <p class="project-category">RAG &amp; LLM · Construction</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Estimators reading construction drawings by hand to pull materials, dimensions and quantities from every plan set.</p>
+                <p><strong>Solution:</strong> RAG tool over uploaded PDF plans with two modes: fast vector search for quick lookups, and full-document deep analysis when a takeoff has to be exhaustive.</p>
+                <p><strong>Impact:</strong> Measurements and specs pulled straight from the plans.</p>
+                <p class="project-stack">RAG · FAISS · Claude · Sentence Transformers · Streamlit</p>
+                <p class="project-links"><a href="https://github.com/Ibtasam-Ahmad/Construction_RAG_BOT" target="_blank" rel="noopener">View code on GitHub</a></p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="rag">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/academic-ai-tutor.svg" alt="Academic AI tutor" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Academic AI Tutor</h3>
+                <p class="project-category">RAG &amp; LLM · EdTech</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> An EdTech startup needing personalised tutoring that adapts to each student without the cost of human tutors.</p>
+                <p><strong>Solution:</strong> Adaptive tutoring platform with LLM-powered Q&amp;A, PDF curriculum ingestion, quiz generation and per-student progress tracking.</p>
+                <p><strong>Impact:</strong> 3x engagement compared with traditional e-learning.</p>
+                <p class="project-stack">RAG · LLaMA 3 · Next.js · FastAPI · Flask</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="rag">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/colibri-purchase-advisor.svg" alt="Colibri RAG purchase advisor chatbot" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Colibri Purchase Advisor</h3>
+                <p class="project-category">RAG &amp; LLM · E-commerce</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> An online store losing sales to shoppers who couldn't find the right product.</p>
+                <p><strong>Solution:</strong> RAG product advisor over the live catalogue, using vector search for context-aware suggestions and persistent memory so conversations pick up where they left off.</p>
+                <p><strong>Impact:</strong> Faster customer query resolution.</p>
+                <p class="project-stack">Python · FAISS · AbacusAI · Vector Search · RAG</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="rag">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/llama-finetuning.svg" alt="LLaMA 3.2 fine-tuning on PDF data" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">LLaMA 3.2 Fine-tuning on PDFs</h3>
+                <p class="project-category">LLM Fine-tuning · Open Source</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Prompting alone couldn't get a general-purpose model to answer reliably from a specific document set.</p>
+                <p><strong>Solution:</strong> Fine-tuning pipeline that turns PDF content into training data and adapts LLaMA 3.2 with Unsloth (LoRA) for domain-specific answers.</p>
+                <p><strong>Impact:</strong> A reusable recipe for fine-tuning open-weight LLMs on private documents.</p>
+                <p class="project-stack">LLaMA 3.2 · Unsloth · LoRA · Hugging Face · PyTorch</p>
+                <p class="project-links"><a href="https://github.com/Ibtasam-Ahmad/Finetuning_PDF_Llama3.2" target="_blank" rel="noopener">View code on GitHub</a></p>
+              </div>
+            </li>
+
+            <!-- ===== Voice & Chatbots ===== -->
+
+            <li class="project-item active" data-filter-item data-category="voice">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/chatbot-voicebot-platform.svg" alt="AI chatbot and voicebot call platform" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Chatbot &amp; Voicebot Platform</h3>
+                <p class="project-category">Voice AI · Customer Support</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> A business losing leads outside office hours, with no 24/7 support.</p>
+                <p><strong>Solution:</strong> Production AI communication platform with LLM conversations, Twilio telephony and Vapi/ElevenLabs voice synthesis, on web and phone calls.</p>
+                <p><strong>Impact:</strong> Live 24/7 customer handling; 5,000+ conversations per month.</p>
+                <p class="project-stack">LLMs · Twilio · Vapi · ElevenLabs · Django · FastAPI</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="voice">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/laila-translation-ai.svg" alt="Laila multilingual translation AI" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Laila Translation AI</h3>
+                <p class="project-category">NLP · Translation</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Congregations needing live sermons (khutbas) in their own language, with accurate Quranic references.</p>
+                <p><strong>Solution:</strong> Multilingual khutba translation API with domain-specific knowledge and real-time Quranic verse search.</p>
+                <p><strong>Impact:</strong> Live, verse-aware translation in multiple languages.</p>
+                <p class="project-stack">FastAPI · LLMs · Search Algorithms</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="voice">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/resume-analyzer.svg" alt="AI resume analyzer" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">AI Resume Analyzer</h3>
+                <p class="project-category">NLP · SaaS Tool</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Job seekers unsure whether their resume matches the roles they apply for.</p>
+                <p><strong>Solution:</strong> AI resume analyzer combining OCR, NLP and vector search to score resumes against job descriptions and suggest improvements.</p>
+                <p><strong>Impact:</strong> Shipped as a SaaS tool that opened a new revenue stream.</p>
+                <p class="project-stack">OCR · NLP · Vector DB · Python · LLMs</p>
+                <p class="project-links"><a href="https://github.com/Ibtasam-Ahmad/Resume-Analyzer" target="_blank" rel="noopener">View code on GitHub</a></p>
+              </div>
+            </li>
+
+            <!-- ===== ML & Vision ===== -->
+
+            <li class="project-item active" data-filter-item data-category="ml">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/forecast-ai.svg" alt="ForecastAI stock prediction" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">ForecastAI</h3>
+                <p class="project-category">Time Series · FinTech</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Single-model stock forecasts that were too noisy to act on.</p>
+                <p><strong>Solution:</strong> Hybrid predictive models (Random Forest, LSTM, ARIMA/SARIMA, Prophet) with an LLM layer that explains forecasts in plain language.</p>
+                <p><strong>Impact:</strong> Improved stock prediction accuracy by 6–12%.</p>
+                <p class="project-stack">React · Next.js · FastAPI · TensorFlow · LSTM · Prophet · LangChain · AWS</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ml">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/lstm-qlstm-research.svg" alt="LSTM vs Quantum LSTM research paper" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">LSTM vs. Quantum LSTM Research</h3>
+                <p class="project-category">Quantum ML · Research</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Can quantum neural networks capture market patterns that classical LSTMs miss?</p>
+                <p><strong>Solution:</strong> Comparative study of LSTM and Quantum LSTM (QLSTM) for stock market movement prediction, grown out of my Computational Physics thesis.</p>
+                <p><strong>Impact:</strong> Published on arXiv (2409.08297), 2024.</p>
+                <p class="project-stack">PyTorch · PennyLane · Qiskit · Time Series</p>
+                <p class="project-links"><a href="https://doi.org/10.48550/arXiv.2409.08297" target="_blank" rel="noopener">Read the paper on arXiv</a></p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ml">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/creator-ranking-system.svg" alt="Creator ranking system with NLP and computer vision" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Creator Ranking System</h3>
+                <p class="project-category">NLP + Vision · Social Media</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> A platform needing to identify high-potential creators from social media at scale.</p>
+                <p><strong>Solution:</strong> AI system combining NLP and computer vision to analyse profiles, posts, interactions and visual content for predictive ranking.</p>
+                <p><strong>Impact:</strong> Multimodal social intelligence at scale.</p>
+                <p class="project-stack">NLP · LSTM · Random Forest · Computer Vision · Recommender Systems</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ml">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/ppe-detection-yolo.svg" alt="PPE detection with YOLO computer vision" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">PPE Detection with YOLO</h3>
+                <p class="project-category">Computer Vision · Safety</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Manually checking that workers wear helmets, vests and other protective equipment on site.</p>
+                <p><strong>Solution:</strong> Real-time Personal Protective Equipment detection with a custom-trained YOLO model (my AI Diploma final-year project).</p>
+                <p><strong>Impact:</strong> Automated safety compliance monitoring from camera feeds.</p>
+                <p class="project-stack">YOLO · OpenCV · PyTorch · Python</p>
+                <p class="project-links"><a href="https://github.com/Ibtasam-Ahmad/PPE-Detection" target="_blank" rel="noopener">View code on GitHub</a></p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ml">
+              <a href="#portfolio" data-project>
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/projects/wrong-parking-detection.svg" alt="Wrong car parking detection with YOLO" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Wrong Parking Detection</h3>
+                <p class="project-category">Computer Vision · Smart City</p>
+              </a>
+              <div class="project-details" hidden>
+                <p><strong>Problem:</strong> Parking violations going unnoticed without constant human monitoring.</p>
+                <p><strong>Solution:</strong> YOLO-based computer vision system that detects vehicles parked in restricted zones from video.</p>
+                <p><strong>Impact:</strong> Automated parking violation monitoring.</p>
+                <p class="project-stack">YOLO · OpenCV · Python</p>
+                <p class="project-links"><a href="https://github.com/Ibtasam-Ahmad/Wrong-Car-Parking-Detection" target="_blank" rel="noopener">View code on GitHub</a></p>
+              </div>
+            </li>
+
+            <!-- ===== Graphic Design (open full-size originals) ===== -->
+
+            <li class="project-item active" data-filter-item data-category="design">
+              <a href="/img/Latest%20Cosmic%20Discoveries.png" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="expand-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/design/latest-cosmic-discoveries.webp" alt="Latest Cosmic Discoveries seminar poster design" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Latest Cosmic Discoveries</h3>
+                <p class="project-category">Graphic Design · Poster</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="design">
+              <a href="/img/Dark%20Matter.png" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="expand-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/design/dark-matter-lhc-seminar.webp" alt="Dark Matter at the LHC seminar poster design" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Dark Matter at the LHC</h3>
+                <p class="project-category">Graphic Design · Poster</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="design">
+              <a href="/img/Eye%20Project.png" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="expand-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/design/eye-vision-detection-proposal.webp" alt="Eye vision detection project proposal design" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Eye Vision Detection Proposal</h3>
+                <p class="project-category">Graphic Design · Presentation</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="design">
+              <a href="/img/Dr%20Mohsin%20Seminar.png" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="expand-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/design/higher-education-abroad-seminar.webp" alt="Higher education abroad seminar poster design" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Higher Education Abroad Seminar</h3>
+                <p class="project-category">Graphic Design · Poster</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="design">
+              <a href="/img/Short%20Courses.png" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="expand-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/design/short-courses-poster.webp" alt="Short courses advertisement poster design" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Short Courses Campaign</h3>
+                <p class="project-category">Graphic Design · Advertising</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="design">
+              <a href="/img/Poster.png" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="expand-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/design/bismillah-typography.webp" alt="Bismillah typographic poster design" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Typographic Poster</h3>
+                <p class="project-category">Graphic Design · Typography</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="design">
+              <a href="/img/vector-manimalist-art.png" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="expand-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/design/vector-minimalist-art.webp" alt="Vector minimalist portrait art" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">Vector Minimalist Art</h3>
+                <p class="project-category">Graphic Design · Illustration</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="design">
+              <a href="/img/Scientific-Society-Logo-poster.png" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="expand-outline" aria-hidden="true"></ion-icon></div>
+                  <img src="/assets/images/design/chep-scientific-society-logo.webp" alt="CHEP Scientific Society logo design" loading="lazy" width="600" height="450">
+                </figure>
+                <h3 class="project-title">CHEP Scientific Society Logo</h3>
+                <p class="project-category">Graphic Design · Branding</p>
+              </a>
+            </li>
+
+          </ul>
+
+          <p class="more-link-wrapper">
+            <a class="btn-secondary" href="https://github.com/Ibtasam-Ahmad?tab=repositories" target="_blank" rel="noopener">
+              <ion-icon name="logo-github" aria-hidden="true"></ion-icon>
+              <span>More open-source AI projects on GitHub</span>
+            </a>
+          </p>
+
+        </section>
+
+
+        <!--
+          - project modal
+        -->
+
+        <div class="modal-container" data-project-modal>
+
+          <div class="overlay" data-project-overlay></div>
+
+          <section class="testimonials-modal project-modal" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+
+            <button class="modal-close-btn" data-project-close aria-label="Close project details">
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <figure class="project-modal-img">
+              <img src="" alt="" data-project-modal-img width="600" height="450">
+            </figure>
+
+            <div class="modal-content">
+              <h3 class="h3 modal-title" id="project-modal-title" data-project-modal-title></h3>
+              <p class="modal-meta" data-project-modal-category></p>
+              <div class="project-modal-body" data-project-modal-body></div>
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" id="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <p class="page-intro">
+          Long-form articles on <strong>agentic AI</strong>, <strong>retrieval-augmented generation (RAG)</strong>,
+          prompt engineering, LLMs and quantum computing, for engineers who want the mechanism rather than the hype.
+          Published on Medium.
         </p>
-        <br />
 
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@shibtasam/agentic-ai-key-terms-you-should-know-42758ff4dab0" target="_blank" rel="noopener">
+                <figure class="blog-banner-box">
+                  <img src="/assets/images/blog/agentic-ai-key-terms.svg" alt="Agentic AI key terms article cover" loading="lazy" width="600" height="450">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Agentic AI</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-03-12">Mar 12, 2025</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Agentic AI: Key Terms You Should Know</h3>
+                  <p class="blog-text">A clear breakdown of the core terms used to discuss autonomous, decision-making AI systems.</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@shibtasam/exploring-the-landscape-of-multiple-large-language-models-24dd2ec27ad8" target="_blank" rel="noopener">
+                <figure class="blog-banner-box">
+                  <img src="/assets/images/blog/landscape-of-llms.svg" alt="Landscape of large language models article cover" loading="lazy" width="600" height="450">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">LLMs</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-02-14">Feb 14, 2025</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Exploring the Landscape of Multiple LLMs</h3>
+                  <p class="blog-text">An overview of the top large language model providers and the strengths of each ecosystem.</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@shibtasam/beyond-the-basics-advanced-prompting-techniques-for-llms-619df4919223" target="_blank" rel="noopener">
+                <figure class="blog-banner-box">
+                  <img src="/assets/images/blog/advanced-prompting.svg" alt="Advanced prompting techniques article cover" loading="lazy" width="600" height="450">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Prompt Engineering</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-12-02">Dec 2, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Beyond the Basics: Advanced Prompting Techniques for LLMs</h3>
+                  <p class="blog-text">Techniques like Least-to-Most prompting that measurably improve LLM output quality.</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@shibtasam/exploring-advanced-retrieval-augmented-generation-techniques-a-comprehensive-guide-to-standard-b025d37c7932" target="_blank" rel="noopener">
+                <figure class="blog-banner-box">
+                  <img src="/assets/images/blog/advanced-rag.svg" alt="Advanced retrieval-augmented generation article cover" loading="lazy" width="600" height="450">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">RAG</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-09-19">Sep 19, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Advanced Retrieval-Augmented Generation Techniques</h3>
+                  <p class="blog-text">A deep dive into state-of-the-art RAG methods and how to implement them effectively.</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@shibtasam/master-oop-in-minutes-a-crash-course-on-encapsulation-abstraction-inheritance-polymorphism-99b3929d17b8" target="_blank" rel="noopener">
+                <figure class="blog-banner-box">
+                  <img src="/assets/images/blog/master-oop.svg" alt="Object-oriented programming crash course cover" loading="lazy" width="600" height="450">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Programming</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-05-11">May 11, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Master OOP in Minutes</h3>
+                  <p class="blog-text">A compact crash course on encapsulation, abstraction, inheritance and polymorphism.</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@shibtasam/quantum-gates-a-brief-introduction-1a39085bea57" target="_blank" rel="noopener">
+                <figure class="blog-banner-box">
+                  <img src="/assets/images/blog/quantum-gates.svg" alt="Quantum gates introduction article cover" loading="lazy" width="600" height="450">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Quantum Computing</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-08-28">Aug 28, 2023</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Quantum Gates: A Brief Introduction</h3>
+                  <p class="blog-text">How quantum gates manipulate qubit states in basic quantum circuits.</p>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+          <p class="more-link-wrapper">
+            <a class="btn-secondary" href="https://medium.com/@shibtasam" target="_blank" rel="noopener">
+              <ion-icon name="logo-medium" aria-hidden="true"></ion-icon>
+              <span>Read all articles on Medium</span>
+            </a>
+          </p>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" id="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <p class="page-intro">
+          Have an AI project in mind, or hiring an <strong>AI/ML engineer</strong>? Tell me what you need built: the
+          problem, the timeline and the constraints. I usually reply within 24 hours.
         </p>
-        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
 
-    </section>
+        <ul class="quick-contact">
+          <li>
+            <a class="btn-secondary" href="https://wa.me/message/NNXCQB4E5X7HF1" target="_blank" rel="noopener">
+              <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon><span>WhatsApp</span>
+            </a>
+          </li>
+          <li>
+            <a class="btn-secondary" href="mailto:shibtasam@gmail.com">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon><span>Email</span>
+            </a>
+          </li>
+          <li>
+            <a class="btn-secondary" href="https://www.linkedin.com/in/ibtasam-ahmad" target="_blank" rel="noopener">
+              <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon><span>LinkedIn</span>
+            </a>
+          </li>
+        </ul>
 
-    <!-- home section ends -->
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m3!2m1!1sLahore,+Pakistan!6i11"
+              title="Map of Lahore, Pakistan"
+              width="400" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
 
-    <!-- about section starts  -->
+        <section class="contact-form">
 
-    <section class="about" id="about">
+          <h3 class="h3 form-title">Send a Message</h3>
 
-        <h1 class="heading"> <span>about</span> me </h1>
+          <form name="contact" method="POST" action="/?sent=1#contact" class="form" data-form
+            data-netlify="true" netlify-honeypot="bot-field">
 
-        <div class="row">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="visually-hidden">
+              <label>Leave this empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+            </p>
 
-            <div class="info">
-                <h3> <span> name : </span> Ibtasam Ahmad </h3>
-                <h3> <span> age : </span> 22 </h3>
-                <h3> <span> qualification : </span> BS Hons Computational Physics, 
-                    Diploma in Artificial Intelligence</h3>
-                <h3> <span> post : </span> Computational Physicist | Artificial Intelligence | 
-                    Data Science & Analysis | Machine & Deep Learning | Computer Simulations & Vision 
-                    | Time Series Analyst | Frontend Developer | Scientific Computation | 
-                    Graphic Designer </h3>
-                <h3> <span> language's : </span> English & Urdu </h3>
-                <a target="_blank" href="https://drive.google.com/drive/folders/1sYcC6Zx7W3FZJro4rZbVcC1PsFie44N5?usp=sharing">
-                    <button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+            <div class="input-wrapper">
+              <label class="visually-hidden" for="fullname">Full name</label>
+              <input type="text" id="fullname" name="fullname" class="form-input" placeholder="Full name" autocomplete="name" required data-form-input>
+
+              <label class="visually-hidden" for="email">Email address</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="Email address" autocomplete="email" required data-form-input>
             </div>
 
-            <div class="counter">
-
-                <div class="box">
-                    <span>2+</span>
-                    <h3>Year's of experience</h3>
-                </div>
-
-                <div class="box">
-                    <span>100+</span>
-                    <h3>porject completed</h3>
-                </div>
-
-                <div class="box">
-                    <span>40+</span>
-                    <h3>happy clients</h3>
-                </div>
-
-                <div class="box">
-                    <span>14+</span>
-                    <h3>awards won</h3>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- about section ends -->
-
-    <!-- education section starts  -->
-
-    <section class="education" id="education">
-
-        <h1 class="heading"> my <span>education</span> </h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2015 - 2017</span>
-                <h3>Post Secondary Science</h3>
-                <p>THE MESSAGE SCHOOL LHR <br>(A+ GRADE)</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2017 - 2019</span>
-                <h3>Intermediate Pre-Engineering</h3>
-                <p>KIPS COLLEGE LHR <br> (A+ GRADE)
-                </p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2019 - 2023</span>
-                <h3>BS Hons ( Computational Physics)</h3>
-                <p>University of The Punajb <br>
-                    Centre For High Energy Physics <br />
-                    3+ CGPA</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2022</span>
-                <h3>Diploma (Artificial Intelligence)</h3>
-                <p>University of The Punajb
-                    <br /> Institute of Electrical, Electronics and Computer Engineering 
-                    (National Vocational and Technical Training Commission NAVTTC)
-                    <br />(A+ GRADE)
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="education" id="experience">
-
-        <h1 class="heading"> my work <span>experience</span> </h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <i class="fas fa-business-time"></i>
-                <span>Jan 2021 - Jun 2021</span>
-                <h3>Frontend Developer</h3>
-                <p>IT Innovation Software Technology<br></p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-business-time"></i>
-                <span>Jul 2021 - Dec 2021</span>
-                <h3>Graphic Designer</h3>
-                <p>Coding Strom Software Technologies Pvt Ltd<br> 
-                </p>
-            </div>
-            
-            <div class="box">
-                <i class="fas fa-business-time"></i>
-                <span>Jul 2021 - Dec 2021</span>
-                <h3>Graphic Designer</h3>
-                <p>Punjab University Photography Society<br> 
-                </p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-business-time"></i>
-                <span>Feb 2022 - Aug 2023</span>
-                <h3>Graphic Designer <br/>Social Media Manager</h3>
-                <p>CHEP Scientific Society ( Punjab University )<br> 
-                </p>
-            </div>
-            
-            <div class="box">
-                <i class="fas fa-business-time"></i>
-                <span>Aug 2022 - Aug 2023</span>
-                <h3>IT Head</h3>
-                <p>ISF ( Punjab University )<br> 
-                </p>
-            </div>
-                        
-            <div class="box">
-                <i class="fas fa-business-time"></i>
-                <span>Oct 2021 - Aug 2023</span>
-                <h3>President <br/> IT Expert <br/> Graphic Designer </h3>
-                <p>CHEP Literary Society ( Punjab University )<br> 
-                </p>
-            </div>
-                                    
-            <div class="box">
-                <i class="fas fa-business-time"></i>
-                <span>Aug 2022 - Aug 2023</span>
-                <h3>President <br/> IT Head </h3>
-                <p>CHEP Event Society ( Punjab University )<br> 
-                </p>
-            </div>
-                                                
-            <div class="box">
-                <i class="fas fa-business-time"></i>
-                <span>Jan 2023 - Aug 2023</span>
-                <h3>Social Media Head (PU) <br/> IT Head (PU) </h3>
-                <p>Pakistan Nuclear Society<br> 
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- education section ends -->
-
-    <!-- portfolio section starts  -->
-
-    <section class="portfolio" id="portfolio">
-
-        <h1 class="heading"> my <span>portfolio</span> </h1>
-
-        <div class="box-container">
-            
-            <div class="box">
-                <img src="./img/Cosmic Discoveries.png" alt="Cosmic Discoveries">
-            </div>
-            
-            <div class="box">
-                <img src="./img/Dark Matter.png" alt="Dark Matter">
-            </div>
-                        
-            <div class="box">
-                <img src="./img/Dr Mohsin Seminar.png" alt="Dr Mohsin Seminar">
-            </div>
-                        
-            <div class="box">
-                <img src="./img/Eye Project.png" alt="Eye Project">
-            </div>
-
-            <div class="box">
-                <img src="./img/Scientific-Society-Logo-poster.png" alt="CSS Scientific-Society-Logo-poster">
-            </div>
-                        
-            <div class="box">
-                <img src="./img/Web Page.png" alt="UX/UI Design">
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- portfolio section ends -->
-
-    <!-- contact section starts  -->
-
-    <section class="contact" id="contact">
-
-        <h1 class="heading"> <span>contact</span> me </h1>
-
-        <div class="row">
-
-            <div class="content">
-
-                <h3 class="title">Contact Info</h3>
-
-                <div class="info">
-                    <h3> <i class="fas fa-envelope"></i> <pre style="text-transform: lowercase;">shibtasam@gmail.com</pre> </h3>
-                    <h3> <i class="fas fa-phone"></i> +92 315 0180953 </h3>
-                    <h3> <i class="fa fa-user"></i> <a target="_blank" style="color:whitesmoke"
-                         href="https://www.linkedin.com/in/ibtasam-ahmad-72b69b206/?trk=public_profile_browsemap&originalSubdomain=pk">
-                        <pre style="text-transform: lowercase;">ibtasam-ahmad-72b69b206</pre>
-                    </a> </h3>
-                    <h3> <i class="fas fa-map-marker-alt"></i> Lahore, Pakistan - 54770. </h3>
-                </div>
-
-            </div>
-
-            <form action="">
-
-                <input type="text" placeholder="name" class="box">
-                <input type="email" placeholder="email" class="box">
-                <input type="text" placeholder="project" class="box">
-                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-                <button type="submit" class="btn"> <a target="_blank" style="color:whitesmoke"
-                     href="https://wa.me/message/NNXCQB4E5X7HF1">Send</a><i class="fas fa-paper-plane"></i> </button>
-
-            </form>
-
-        </div>
-
-    </section>
-
-    <!-- contact section ends -->
-
-
-    <!-- scroll top button  -->
-
-    <a href="#home" class="top">
-        <img src="images/scroll-top-img.png" alt="">
-    </a>
-
-
-
-
-
-
-
-
-
-
-    <!-- jquery cdn link  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <!-- custom js file link  -->
-    <script src="script.js"></script>
-
-
-
-
+            <label class="visually-hidden" for="project-type">Project type</label>
+            <select id="project-type" name="project-type" class="form-input form-select" required data-form-input>
+              <option value="" disabled selected>What do you need?</option>
+              <option>AI Engineer role / hiring</option>
+              <option>RAG pipeline or AI chatbot</option>
+              <option>AI agents / workflow automation</option>
+              <option>Voicebot / call automation</option>
+              <option>LLM fine-tuning / ML model</option>
+              <option>Full-stack AI SaaS</option>
+              <option>Research collaboration</option>
+              <option>Other</option>
+            </select>
+
+            <label class="visually-hidden" for="message">Message</label>
+            <textarea id="message" name="message" class="form-input" placeholder="Tell me about your project" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+            <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+
+          </form>
+
+        </section>
+
+        <section class="faq">
+
+          <h3 class="h3 faq-title">Frequently Asked Questions</h3>
+
+          <details class="faq-item content-card">
+            <summary>What AI services does Ibtasam Ahmad offer?</summary>
+            <p>
+              End-to-end AI engineering: RAG pipelines and AI chatbots, multi-agent and agentic AI automation, voicebots,
+              LLM fine-tuning (LLaMA, Gemma, open-weight models), machine learning for NLP, computer vision and time
+              series, and full-stack AI SaaS with FastAPI, Django and React deployed on AWS or GCP.
+            </p>
+          </details>
+
+          <details class="faq-item content-card">
+            <summary>Are you available for remote work or relocation?</summary>
+            <p>
+              Yes. I work remotely with clients worldwide from Lahore, Pakistan, I'm available for immediate relocation
+              and eligible for an employer-sponsored work visa. I'm also open to funded Master's research positions in
+              Generative AI.
+            </p>
+          </details>
+
+          <details class="faq-item content-card">
+            <summary>Which tools do you use to build RAG systems and AI agents?</summary>
+            <p>
+              LangChain, LangGraph, LlamaIndex, AutoGen, CrewAI and MCP for orchestration; FAISS, Pinecone, Weaviate,
+              Chroma and pgvector for vector search; OpenAI, Claude, Gemini and LLaMA as models; and LangSmith with
+              held-out evaluation sets to measure quality before launch.
+            </p>
+          </details>
+
+          <details class="faq-item content-card">
+            <summary>How quickly can we start?</summary>
+            <p>
+              Send a short description of the problem through the form, WhatsApp or email. You'll get a reply within 24
+              hours with a clear plan, a timeline and honest pricing.
+            </p>
+          </details>
+
+        </section>
+
+      </article>
+
+
+      <footer class="site-footer">
+        <p>
+          © <span data-year>2026</span> Ibtasam Ahmad · AI/ML Engineer in Lahore, Pakistan ·
+          Generative AI, RAG &amp; Agentic AI Developer
+        </p>
+      </footer>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="/assets/js/script.js" defer></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
